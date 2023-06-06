@@ -8,7 +8,7 @@
     "ios": "expo start --ios",
     "web": "expo start --web",
     "prepare": "husky install",
-    "test": "jest --coverage",
+    "test": "jest",
     "ci:test": "npm test -- --coverage --watchAll=false"
   },
   "dependencies": {
